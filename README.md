@@ -6,17 +6,17 @@ Getting Started
 
 _To run the Twitter AutoBot, follow these steps:_
 
-**Step 1: Create a Twitter Application**
+**Step 1: Create a Twitter Application**<br/>
 Go to the Twitter Developer Portal and log in to your account.
 Create a new Twitter application.
 Take note of the Consumer Key, Consumer Secret, Access Token, and Access Token Secret provided for your application.
 <br/><br/>
-**Step 2: Set up the Project**
+**Step 2: Set up the Project**<br/>
 Download and install IntelliJ Community Edition (or use your preferred Java IDE).
 Clone or download the TwitterAutoBot project from the repository.
 Open the project in IntelliJ or your preferred IDE.
 <br/><br/>
-**Step 3: Configure Twitter4J**
+**Step 3: Configure Twitter4J**<br/>
 In the project, locate the twitter4j.properties file in the src/main/resources directory.
 Open the twitter4j.properties file and replace the following properties with your Twitter application credentials:
 oauth.consumerKey
@@ -24,11 +24,11 @@ oauth.consumerSecret
 oauth.accessToken
 oauth.accessTokenSecret
 <br/><br/>
-**Step 4: Prepare Tweets**
+**Step 4: Prepare Tweets**<br/>
 In the project, create a text file named tweets.txt in the src/main/resources directory.
 Add the tweets you want the bot to post, with each tweet on a separate line. Make sure each tweet is within Twitter's character limit (280 characters).
 <br/><br/>
-**Step 5: Run the Bot**
+**Step 5: Run the Bot**<br/>
 In your IDE, locate the TwitterAutoBot class in the src/main/java directory.
 Run the main method in the TwitterAutoBot class.
 The bot will start tweeting the messages from the tweets.txt file at the specified intervals.
