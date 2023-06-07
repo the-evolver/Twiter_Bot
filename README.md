@@ -12,9 +12,9 @@ Create a new Twitter application.
 Take note of the Consumer Key, Consumer Secret, Access Token, and Access Token Secret provided for your application.
 <br/><br/>
 **Step 2: Set up the Project**<br/>
-Download and install IntelliJ Community Edition (or use your preferred Java IDE).
+Download and install  your preferred Java IDE.
 Clone or download the TwitterAutoBot project from the repository.
-Open the project in IntelliJ or your preferred IDE.
+Open the project in your preferred IDE.
 <br/><br/>
 **Step 3: Configure Twitter4J**<br/>
 In the project, locate the twitter4j.properties file in the src/main/resources directory.
