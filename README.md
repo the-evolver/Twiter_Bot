@@ -36,6 +36,6 @@ Customization
 <br/><br/>
 We can customize the behavior of the Twitter AutoBot by modifying the following:
 <br/><br/>
-Tweet Interval: In the tweetLines method of the TwitterAutoBot class, we can adjust the Thread.sleep duration to set the time interval between tweets.<br/>
-Tweet File: If we want to use a different file for tweets, update the file path in the FileInputStream constructor in the tweetLines method.<br/>
+**Tweet Interval:** In the tweetLines method of the TwitterAutoBot class, we can adjust the Thread.sleep duration to set the time interval between tweets.<br/>
+**Tweet File:** If we want to use a different file for tweets, update the file path in the FileInputStream constructor in the tweetLines method.<br/>
 Please note that the project currently uses a limited subset of Twitter API endpoints. If we require access to additional endpoints, we may need to upgrade our developer account or request access from Twitter.
